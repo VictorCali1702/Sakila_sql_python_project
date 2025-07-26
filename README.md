@@ -70,7 +70,7 @@ Each query:
 
 
 📎 Repository Link
-
+https://github.com/VictorCali1702/Sakila_sql_python_project
 
 
 🙋 About Me
