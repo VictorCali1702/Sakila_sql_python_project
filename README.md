@@ -41,6 +41,31 @@ sakila-sql-project/
 | 5 | Show movie titles and their main actors | `JOIN`, `SELECT` | `film`, `film_actor`, `actor` |
 | 6 | Find "Comedy" films longer than 100 minutes | `JOIN`, `WHERE` | `film`, `film_category`, `category` |
 
+✅ SQL Queries – Level 2 & 3 (7–12)
+These queries explore more advanced SQL concepts like JOINs, aggregation, GROUP BY, and subqueries:
+No.
+Query Description
+Tables Involved
+7
+Retrieve the top 5 customers who spent the most money on rentals
+payment, customer
+8
+Show the number of rentals per customer, including their full name
+rental, customer
+9
+Calculate the average film length per category
+film, film_category, category
+10
+Identify the category with the highest total rentals
+rental, inventory, film_category, category
+11
+Count the number of rentals per month
+rental
+12
+Find the actor who appeared in the most films
+film_actor, actor
+
+
 Each query:
 - Was written and executed in Jupyter Notebook ✅  
 - Has its result exported to `.csv` in `/reports` 📄  
